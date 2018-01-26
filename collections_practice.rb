@@ -40,5 +40,4 @@ def find_a(str_a)
       new_array.push(str)
     end
   end
-  return new_array
 end
