@@ -51,8 +51,6 @@ def add_s(str_array)
   str_array.each_with_index.collect do |str, index|
     if index != 1
       str << "s"
-    else
-      str_array.pop(index)
     end
   end
 end
