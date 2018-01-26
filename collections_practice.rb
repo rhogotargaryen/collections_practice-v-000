@@ -35,7 +35,7 @@ end
 
 def find_a(str_a)
   new_array = []
-  str_a.each do |str|
+  str_a.find_all do |str|
     if str.start_with?("a")
       new_array.push(str)
     end
