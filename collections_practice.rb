@@ -24,5 +24,6 @@ def swap_elements_from_to(num_a, index, d_index)
 end
 
 def revese_array(num_a)
+  num_a.sort!
   num_a.reverse
 end
