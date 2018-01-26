@@ -41,3 +41,7 @@ def find_a(str_a)
     end
   end
 end
+
+def sum_array(num_array)
+  num_array.inject do |sum, n| sum + n }
+  
