@@ -16,6 +16,7 @@ end
 
 def swap_elements(num_a)
   num_a[1], num_a[2] = num_a[2], num_a[1]
+  return num_a
 end
 def swap_elements_from_to(num_a, index, d_index)
   num_a.insert(d_index, num_a.delete_at(index))
