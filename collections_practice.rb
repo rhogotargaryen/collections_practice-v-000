@@ -36,4 +36,5 @@ end
 def find_a(str_a)
   new_array = []
   str_a.find {|str| new_array.push(str) if str.start_with?("a")}
+  return new_array
 end
