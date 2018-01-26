@@ -49,7 +49,7 @@ end
 
 def add_s(str_array)
   str_array.each_with_index.collect do |str, index|
-    if index != 2
+    if index != 1
       str << "s"
     end
   end
