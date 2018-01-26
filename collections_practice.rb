@@ -46,3 +46,8 @@ def sum_array(num_array)
   num_array.inject do |sum, n| sum + n
   end
 end
+
+def add_s(str_array)
+  str_array.each_with_index.collect do |str, index|
+    if index != 3
+      str << "s"
