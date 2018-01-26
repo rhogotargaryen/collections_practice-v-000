@@ -23,7 +23,7 @@ def swap_elements_from_to(num_a, index, d_index)
   num_a.insert(d_index, num_a.delete_at(index))
 end
 
-def revese_array(num_a)
+def reverse_array(num_a)
   num_a.sort!
   num_a.reverse
 end
