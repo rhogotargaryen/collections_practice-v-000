@@ -52,7 +52,7 @@ def add_s(str_array)
     if index != 1
       str << "s"
     else
-      str_array.delete_at(index)
+      str_array.delete(index)
     end
   end
 end
