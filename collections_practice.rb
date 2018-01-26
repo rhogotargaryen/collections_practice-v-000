@@ -34,9 +34,10 @@ def kesha_maker(str_a)
 end
 
 def find_a(str_a)
+  new_array = []
   str_a.find_all do |str|
     if str.start_with?("a")
-      puts str
+      new_array.push(str)
     end
   end
 end
